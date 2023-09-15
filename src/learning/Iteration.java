@@ -20,7 +20,13 @@ public class Iteration {
 //            do {
 //                System.out.println(" i =" + i);
 //                i++;
-//            } while (i < 10);
+//            }
+//        while (i < 10){
+//            System.out.println("i = "+ i);
+//            i++;
+//        };
+
+        // Second task
 //            int i = 0;
 //            int j = 10;
 //            do {
@@ -29,13 +35,15 @@ public class Iteration {
 //                i++;
 //                j--;
 //            } while ( i < j);
-//            int sum = 0;
-//            int i = 0;
-//            do {
-//                sum += i;
-//                i++;
-//                System.out.println("The sum is : "+ sum);
-//            } while (i<10);
-//        };
+
+        // Third task
+            int sum = 0;
+            int i = 0;
+            do {
+                sum += i;
+                i++;
+                System.out.println("The sum is : "+ sum);
+            } while (i<10);
+      };
 };
 
