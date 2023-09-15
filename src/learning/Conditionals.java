@@ -2,16 +2,16 @@ package learning;
 
 public class Conditionals {
     public static void main(String[] args) {
-//        int x = -1, y = 5;
-//        if (x>= 0) {
-//            if ( y <= x) {
-//                System.out.println("y is less than x");
-//            } else {
-//                System.out.println("y is more than x");;
-//            };
-//        } else {
-//            System.out.println("your x value should be greater than or equal to 0");;
-//        };
+        int x = 4, y = 5;
+        if (x >= 0) {
+            if ( y <= x) {
+                System.out.println("y is less than x");
+            } else {
+                System.out.println("y is more than x");;
+            };
+        } else {
+            System.out.println("your x value should be greater than or equal to 0");;
+        };
 //        int z = 7;
 //        if (z == 0) {
 //            System.out.println("x is zero");
