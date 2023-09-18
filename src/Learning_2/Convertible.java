@@ -13,4 +13,9 @@ public class Convertible extends Car {
     public void ToggleRoof(){
         this.IsRoofOpen = !this.IsRoofOpen;
     }
+    @Override
+    public String toString() {
+        return super.toString()+this.IsRoofOpen;
+    }
+
 }

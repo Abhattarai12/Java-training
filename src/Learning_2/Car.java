@@ -49,6 +49,11 @@ public class Car {
         this.make = f;
     }
 
+    @Override
+    public String toString() {
+        return this.colour + this.reg +this.model+this.make+this.miles;
+    }
+
 }
 
 //    public String colour ;

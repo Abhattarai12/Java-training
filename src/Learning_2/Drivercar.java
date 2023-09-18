@@ -13,13 +13,11 @@ public class Drivercar {
         System.out.println(c2.getMiles());
         System.out.println(c2.increaseMiles(2000));
 
-        if (c2.getClass() == Convertible.class) {
-                if (!c2.GetIsRoofOpen()) {
-                    c2.ToggleRoof();
-            }
+        if (!c2.GetIsRoofOpen()) {
+            c2.ToggleRoof();
         }
         System.out.println(c2.GetIsRoofOpen());
-
+        System.out.println(c2);
 
     }
 }
