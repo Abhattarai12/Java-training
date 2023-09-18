@@ -1,5 +1,7 @@
 package learning;
 import java.util.Scanner;
+import java.lang.Math;
+
 
 public class Conditionals_two {
     public static void main(String[] args) {
@@ -91,7 +93,7 @@ public class Conditionals_two {
         int num5 = scanner.nextInt();
         System.out.println("Enter a second number: ");
         int num6 = scanner.nextInt();
-        System.out.println("Enter an operator ( + , - , * or / )");
+        System.out.println("Enter an operator ( + , - , * , / , % or ^)");
         String calc = scanner.next();
         switch(calc){
                     case "+":
@@ -105,6 +107,12 @@ public class Conditionals_two {
                         break;
                     case "/":
                         System.out.println("The result is "+ (num5/num6));
+                        break;
+                    case "%":
+                        System.out.println("The result is "+ (num5%num6));
+                        break;
+                    case "^":
+                        System.out.println("The result is "+(Math.pow(num5,num6)));
                         break;
                     default:
                         System.out.println("That was not a valid operator");
