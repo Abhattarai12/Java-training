@@ -33,7 +33,7 @@ public class Car {
         return miles;
     }
     public double increaseMiles (double milesValue){
-        return miles = miles + milesValue;
+        return this.miles += milesValue;
     }
 
     public void setColour(String a ){
