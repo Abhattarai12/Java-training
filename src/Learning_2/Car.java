@@ -1,6 +1,6 @@
 package Learning_2;
 
-public class Car {
+public class Car extends Vehicle implements IDrivable{
     private String colour;
     private String reg;
     private String model;
