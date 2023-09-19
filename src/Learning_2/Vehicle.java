@@ -1,6 +1,6 @@
 package Learning_2;
 
-public class Vehicle implements IFly{
+public class Vehicle implements IDrivable{
 
     private Position position = new Position (0,0);
 
@@ -9,6 +9,7 @@ public class Vehicle implements IFly{
     }
 
     protected void setPosition (double x, double y){
-        this.setPosition(this.getPosition().getX(), this.getPosition().getY());
+        this.position.setX(x);
+        this.position.setY(y);
     }
 }

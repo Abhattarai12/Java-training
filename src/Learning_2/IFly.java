@@ -2,8 +2,8 @@ package Learning_2;
 
 public interface IFly {
 
-    private double Fly(double miles) {
-        return 0;
+    public default double Fly(double miles) {
+        return miles;
     }
 
 }
